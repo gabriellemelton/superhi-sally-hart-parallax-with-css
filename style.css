@@ -1,0 +1,72 @@
+body {
+	font-family: Work Sans;
+	font-size: 16px;
+	background-color: #004d9d;
+	color: #FFFFFF;
+}
+
+header {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+section {
+	height: 100vh;
+	background-image: url("sally_1.jpg");
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+/* The background attachment being fixed creates the paralax effect as you scroll. */
+
+.image_2 {
+	background-image: url("sally_2.jpg");
+}
+
+.image_3 {
+	background-image: url("sally_3.jpg");
+}
+
+.image_4 {
+	background-image: url("sally_4.jpg");
+}
+
+.image_5 {
+	background-image: url("sally_5.jpg");
+}
+
+.image_6 {
+	background-image: url("sally_6.jpg");
+}
+
+.image_7 {
+	background-image: url("sally_7.jpg");
+}
+
+.image_8 {
+	background-image: url("sally_8.jpg");
+}
+
+footer {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+}
+
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-right: 5px;
+	transition: color 0.3s;
+}
+
+a:hover {
+	color: #dddddd;
+}
